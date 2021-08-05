@@ -4,8 +4,8 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 
 const products = [
-    { id: 1, name: 'Shoes', description: 'Running Shoes.', price: '$100' },
-    { id: 2, name: 'Macbook', description: 'Apple Macbook.', price: '$1000' },
+    { id: 1, name: 'Shoes', description: 'Running Shoes.', price: '$100', image: 'https://www.pngall.com/wp-content/uploads/2016/04/Running-Shoes-PNG-Pic.png' },
+    { id: 2, name: 'Macbook', description: 'Apple Macbook.', price: '$1000', image: 'https://purepng.com/public/uploads/large/purepng.com-macbookmacbooknotebookcomputersapple-inmacbook-familyapple-laptops-1701528361631puxzf.png' },
 ]
 
 const Products = () => {
